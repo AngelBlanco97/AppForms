@@ -25,8 +25,8 @@ namespace AppForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int num1 = Convert.ToInt32(nv1);
-            int num2 = Convert.ToInt32(nv2);
+            int num1 = Convert.ToInt32(nv1.Value);
+            int num2 = Convert.ToInt32(nv2.Value);
             int res = num1 + num2;
 
             lbl_res.Text = res.ToString();
